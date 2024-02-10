@@ -1,0 +1,207 @@
+﻿
+#body_google, #body_google_img {
+    background-color:rgba(32,33,36,1);
+}
+.imagenes {
+    z-index:1;
+}
+
+#img_google {
+    /* Propiedades de la imagen de Google */
+    width: 380px;
+    height: 190px;
+    /* Posicion de la imagen */
+    top: 70px;
+    left: 37%;
+    position: relative;
+}
+
+.buttons {
+    /* Propiedades botoncito de buscar */
+    width: 160px;
+    height: 36px;
+    background-color: #303134;
+    z-index: 4;
+    /* Propiedades del texto */
+    color: white;
+    text-align: center;
+    font-family: arial,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    /* Bordes del botoncito */
+    border-width: thin;
+    border-style: solid;
+    border-color: #303134;
+    border-radius: 5px 5px 5px 5px;
+    /* Posicion del botoncito*/
+    top: 350px;
+    left: 4%;
+    position: relative;
+}
+
+/* Botoncito pero con mouse encima */
+
+.buttons:hover {
+    /* Cambios del botoncito */
+    border-color: #5f6368;
+}
+#button_lucky {
+    left: 0%;
+}
+#button_search{
+    left: 0%;
+}
+/* CAJITAS */
+input[type=text].boxes {
+    /* Propiedades de la cajita */
+    width: 580px;
+    height: 44px;
+    background-color: rgba(32,33,36,1);
+    z-index: 3;
+    /* Bordes de la cajita */
+    border-width: 1px;
+    border-color: #5f6368;
+    border-style: solid;
+    border-radius: 25px 25px 25px 25px;
+    /* Posicion of cajita */
+    top: 280px;
+    left: 30%;
+    position: relative;
+    /* Texto de la cajita */
+    color: white;
+    text-align: justify;
+    font-family: arial,sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    text-indent: 15px;
+}
+    /* Cajita pero con el mouse encima */
+
+input[type=text].boxes:hover {
+    /* Cambios de la cajita */
+    background-color: #303134;
+    border-color: #303134;
+}
+
+
+/* GOOGLE IMAGENES /////////////////////////////////////////////////////////////////*/
+
+
+#img_google_imagenes {
+    /* Propiedades de la imagen de Google */
+    width: 272px;
+    height: 92px;
+    /* Posicion de la imagen */
+    top: 115px;
+    left: 37%;
+    position: relative;
+}
+#span_images {
+    position: relative;
+    color: #4487f6;
+    top: 112.6px;
+    left: 55.3%;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+}
+.links {
+    /* Propiedades del texto de los links de Google */
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    font-family: arial,sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-indent: 14px;
+    /* Posicion de los links */
+    z-index: 2;
+    top: -210px;
+    left: 61%;
+    position: relative;
+}
+.links:hover{
+/* Propiedades de los links de Google cuando el mouse esta encima */
+text-decoration: underline;
+
+}
+#link_google_IMAGES {
+    /* Posicion del link */
+
+    top:-107.9px;
+    left:70.3%;
+}
+
+/*         GOOGLE ADVANCE SEARCH        */
+
+#link_google_ADV {
+    /* Posicion del link */
+    position:relative;  
+    left: 85%;
+    top: -475px;
+    /* Color del Link */
+    color:black;
+}
+.labels_adv,.adv_span {
+    /* Propiedades de los textos */
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    font-family: arial,sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-indent: 14px;
+}
+#table1 {
+    /* Caracteristicas de la tabla y sus bordes */
+    border-spacing: 22px;
+    text-align: left;
+    padding:50px;   
+    padding-left:20px;
+    padding-top:80px;
+}
+.adv_span{
+    font-size: 19px;
+    padding-bottom:10px;
+}
+.labels_adv{
+
+    padding-left:16px;
+}
+input[type=text].boxes_adv {
+    /* Tamaño cajitas */
+    width: 600px;
+    height: 25px;
+    /* Bordes cajitas */
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+    border-radius: 1px 1px 1px 1px;
+    border-width: 1px;
+}
+input[type=text].boxes_adv:focus {
+    /* Cuando hacen click en la cajita */
+    border-color: #4d90fe;
+    border-style: solid;
+    border-radius: 1px 1px 1px 1px;
+    border-width: 1px;
+}
+#button_ADVsearch {
+    /* Caracteristicas del boton */
+    background-color: #4d90fe;
+    position: relative;
+    top: -10px;
+    left: 46.5%;
+}
+#button_ADVsearch:hover {
+    /* Cuando el mouse pasa por el boton */
+    background-color:#4787ed;
+}
+#img_google_adv {
+    /*  Imagen en GOOGLE ADVANCE y sus caracteristicas  */
+
+    position:relative;
+    top: -455px;
+    left: 0%;
+    width: 110px;
+    height: 55px;
+}
+
